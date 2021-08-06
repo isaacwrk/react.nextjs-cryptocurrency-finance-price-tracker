@@ -1,3 +1,4 @@
+import Footer from '../../components/Footer/Footer';
 import Layout from '../../components/Layout';
 import styles from './Coin.module.css';
 
@@ -18,7 +19,9 @@ const Coin = ({ coin }) => {
           </p>
         </div>
       </div>
+      <Footer></Footer>
     </Layout>
+    
   );
 };
 
